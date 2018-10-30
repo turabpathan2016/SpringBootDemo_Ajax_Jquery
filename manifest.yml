@@ -1,0 +1,7 @@
+applications:
+- name: myFirstDemo
+  instances: 1
+  host: springbootDemo2018
+  path: target/Spring-Boot-Restfull.jar
+  memory: 512M
+  
