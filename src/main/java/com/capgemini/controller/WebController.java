@@ -10,4 +10,8 @@ public class WebController {
     public String homepage(){
         return "index";
     }
+    @GetMapping("view")
+    public void view() {
+    	System.out.println("view");
+    }
 }
